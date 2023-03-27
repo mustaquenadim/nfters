@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { DM_Sans, Inter } from 'next/font/google';
-
-const inter = Inter({
-	subsets: ['latin'],
-	variable: '--font-inter',
-});
+import { DM_Sans } from 'next/font/google';
+import Hero from '@/components/home/Hero';
+import Features from '@/components/home/Features';
+import FeaturedCollection from '@/components/home/FeaturedCollection';
+import TopCollection from '@/components/home/TopCollection';
+import DiscoverMore from '@/components/home/DiscoverMore';
+import CallToAction from '@/components/home/CallToAction';
 
 const DMSans = DM_Sans({
 	subsets: ['latin-ext'],
@@ -22,18 +23,12 @@ const Home = () => {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main>
-				<h1
-					class={`text-4xl font-extrabold underline text-red-500 ${inter.variable} font-sans`}
-				>
-					Hello world!
-				</h1>
-				<h1
-					class={`text-4xl font-bold underline text-red-500 ${DMSans.variable} font-DMSans`}
-				>
-					Hello world!
-				</h1>
-			</main>
+			<Hero />
+			<Features />
+			<TopCollection />
+			<FeaturedCollection />
+			<CallToAction />
+			<DiscoverMore />
 		</>
 	);
 };
