@@ -11,7 +11,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sans: ['var(--font-inter)', ...fontFamily.sans],
-				DMSans: ['var(--font-dm-sans)', ...fontFamily.sans],
+				'dm-sans': ['var(--font-dm-sans)', ...fontFamily.sans],
 			},
 		},
 	},

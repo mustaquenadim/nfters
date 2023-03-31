@@ -1,10 +1,18 @@
-import React from 'react';
+import Card from '../ui/Card';
+import { integralCF } from '@/assets/fonts';
 
 const DiscoverMore = () => {
 	return (
-		<div>
-			<h1>Discover More</h1>
-		</div>
+		<section className="container">
+			<h2
+				className={`${integralCF.className} font-bold text-[1.75rem] leading-[2.1rem]`}
+			>
+				Discover more NFTs
+			</h2>
+			<div className="grid grid-cols-4 gap-10">
+				<Card />
+			</div>
+		</section>
 	);
 };
 

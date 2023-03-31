@@ -1,10 +1,13 @@
-import React from 'react';
+import Footer from '@/components/ui/Footer';
+import Navbar from '@/components/ui/Navbar';
 
-const DefaultLayout = () => {
+const DefaultLayout = ({ children, className }) => {
 	return (
-		<div>
-			<h1>Default Layout</h1>
-		</div>
+		<>
+			<Navbar />
+			<main className={className}>{children}</main>
+			<Footer />
+		</>
 	);
 };
 
