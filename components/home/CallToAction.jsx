@@ -68,7 +68,9 @@ const CallToAction = () => {
 					dictum sit tristique sed non. Lacinia lorem id consectetur pretium
 					diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
 				</p>
-				<Button className={'mt-8'}>Sign Up Now</Button>
+				<Button variant="primary" size="lg" className={'mt-8'}>
+					Sign Up Now
+				</Button>
 			</div>
 		</section>
 	);

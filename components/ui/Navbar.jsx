@@ -39,8 +39,12 @@ const Navbar = () => {
 							className="absolute right-[20px] top-[14px]"
 						/>
 					</div>
-					<Button>Upload</Button>
-					<Button>Connect Wallet</Button>
+					<Button variant="primary" className="!h-[3.125rem]">
+						Upload
+					</Button>
+					<Button variant="outlined" className="!h-[3.125rem] px-5">
+						Connect Wallet
+					</Button>
 				</div>
 			</nav>
 			<hr className="border-b border-[#EFEFEF]" />

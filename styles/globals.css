@@ -34,9 +34,11 @@ img {
 	max-width: 100%;
 }
 
+/*
 .btn {
 	@apply h-[3.125rem] py-[1.125rem] px-10 bg-[#3D00B7] flex items-center rounded-[3.75rem] text-white;
 }
+*/
 
 nav .nav-item {
 	@apply font-medium text-base tracking-wider leading-5;
@@ -105,3 +107,45 @@ nav .nav-item {
 	border-radius: 10px;
 }
 /* end glassmorphism */
+
+/* button styles */
+.btn {
+	@apply flex items-center justify-center rounded-full font-medium focus:outline-none whitespace-nowrap select-none;
+}
+
+.btn-xs {
+	@apply h-[1.875rem] px-3 text-[0.6875rem];
+}
+
+.btn-sm {
+	@apply h-[2.375rem] px-5 text-sm;
+}
+
+.btn-md {
+	@apply h-[2.8125rem] px-5 text-sm;
+}
+
+.btn-lg {
+	@apply h-[4.0625rem] px-10 text-xl;
+}
+
+.btn-default {
+	@apply bg-[#F9F9F9] text-[#202020];
+}
+
+.btn-primary {
+	@apply text-white bg-[#3D00B7] hover:text-white transition-all duration-150 ease-out;
+}
+
+.btn-secondary {
+	@apply bg-[#DCDCDC33] text-black;
+}
+
+.btn-outlined {
+	@apply bg-none text-[#3D00B7] border border-[#3D00B7]  hover:bg-[#3D00B7] hover:text-white transition-all duration-150 ease-out hover:border-[#3D00B7];
+}
+
+.btn-disabled {
+	@apply bg-[#DCDCDC33] text-gray-100 pointer-events-none;
+}
+/* end button styles */

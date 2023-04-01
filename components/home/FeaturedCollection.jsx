@@ -57,12 +57,92 @@ const FeaturedCollection = () => {
 									/>{' '}
 									<div className="font-medium text-sm">by Arkhan</div>
 								</div>
-								<Button className={''}>Total 54 Items</Button>
+								<Button variant={'outlined'} size="xs">
+									Total 54 Items
+								</Button>
 							</div>
 						</div>
 					</div>
-					<div></div>
-					<div></div>
+					<div className="space-y-7">
+						<div className="grid grid-cols-[265px_minmax(103.59px,_1fr)] gap-2">
+							<Image
+								src={Abstract9}
+								alt="Abstract Image "
+								className="row-span-3 w-[265px] h-[272.27px]"
+							/>
+							<Image
+								src={Abstract7}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+							<Image
+								src={Abstract6}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+							<Image
+								src={Abstract3}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+						</div>
+						<div>
+							<h3 className="text-xl font-bold">Amazing Collection</h3>
+							<div className="flex items-center justify-between">
+								<div className="flex items-center space-x-2.5">
+									<Image
+										src={Artist1}
+										alt="Artist Image 1"
+										className="w-7 h-7 rounded-full"
+									/>{' '}
+									<div className="font-medium text-sm">by Arkhan</div>
+								</div>
+								<Button variant={'outlined'} size="xs">
+									Total 54 Items
+								</Button>
+							</div>
+						</div>
+					</div>
+					<div className="space-y-7">
+						<div className="grid grid-cols-[265px_minmax(103.59px,_1fr)] gap-2">
+							<Image
+								src={Abstract9}
+								alt="Abstract Image "
+								className="row-span-3 w-[265px] h-[272.27px]"
+							/>
+							<Image
+								src={Abstract7}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+							<Image
+								src={Abstract6}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+							<Image
+								src={Abstract3}
+								alt="Abstract Image "
+								className="h-[85.26px] rounded-[0.6875rem]"
+							/>
+						</div>
+						<div>
+							<h3 className="text-xl font-bold">Amazing Collection</h3>
+							<div className="flex items-center justify-between">
+								<div className="flex items-center space-x-2.5">
+									<Image
+										src={Artist1}
+										alt="Artist Image 1"
+										className="w-7 h-7 rounded-full"
+									/>{' '}
+									<div className="font-medium text-sm">by Arkhan</div>
+								</div>
+								<Button variant={'outlined'} size="xs">
+									Total 54 Items
+								</Button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

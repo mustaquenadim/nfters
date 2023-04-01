@@ -15,7 +15,9 @@ const Hero = () => {
 					Digital marketplace for crypto collectibles and non-fungible tokens
 					(NFTs). Buy, Sell, and discover exclusive digital assets.
 				</p>
-				<Button className={'mt-10'}>Explore Now</Button>
+				<Button size="lg" className={'mt-10'}>
+					Explore Now
+				</Button>
 				<div className="flex items-center space-x-[1.4375rem] mt-[1.875rem]">
 					<div className="flex flex-col">
 						<div
