@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Hero = () => {
 	return (
-		<section className="container grid grid-cols-2 gap-[6.125rem] pt-[4.5rem]">
+		<section className="container grid grid-cols-2 gap-[6.125rem] pt-[4.5rem] pb-[7.625rem]">
 			<div>
 				<h1 className={`${integralCF.className} text-[2.5rem]`}>
 					Discover, and collect Digital Art NFTs{' '}
