@@ -8,7 +8,7 @@ import EthereumIcon from '@/assets/icons/EthereumIcon';
 
 const Card = () => {
 	return (
-		<div className="card border border-[#F2F2F280] rounded-[0.8228rem] p-[0.6544rem]">
+		<div className="card bg-[#FFFFFF] border border-[#F2F2F280] rounded-[0.8228rem] p-[0.6544rem]">
 			<div className="card-top relative">
 				<Image
 					src={Abstract2}
@@ -22,19 +22,23 @@ const Card = () => {
 					<Image src={Artist5} alt="Artist Image 5" className="-ml-3" />
 				</div>
 			</div>
-			<div className="card-body">
-				<div className="">ArtCrypto</div>
-				<div className="flex items-center justify-between">
-					<div className="flex items-center">
-						<EthereumIcon />
-						&nbsp;0.25 ETH
+			<div className="card-body mt-[1.375rem]">
+				<div className="text-xl font-bold">ArtCrypto</div>
+				<div className="flex items-center justify-between mt-[0.5325rem]">
+					<div className="flex items-center text-[#00AC4F] text-[0.6875rem] font-bold">
+						<EthereumIcon className="w-[0.585rem] h-full mr-[0.3431rem]" />
+						0.25 ETH
 					</div>
-					<div>1 of 321</div>
+					<div className="text-[13px] font-medium text-[#838383]">1 of 321</div>
 				</div>
 			</div>
-			<div className="card-footer flex items-center justify-between">
-				<button>3h 50m 2s left</button>
-				<button>Place a bid</button>
+			<div className="card-footer flex items-center justify-between mt-3.5">
+				<button className="bg-[#F5F5F5] rounded-full cursor-default px-[0.6875rem] py-[0.2744rem] text-[#5539A8] text-[10.97px] font-bold">
+					3h 50m 2s left
+				</button>
+				<button className="text-[#4F33A3] text-base font-medium">
+					Place a bid
+				</button>
 			</div>
 		</div>
 	);
