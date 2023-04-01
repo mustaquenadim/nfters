@@ -71,7 +71,7 @@ const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="col-span-2 space-y-6">
+				<div className="md:col-span-2 space-y-6">
 					<div className="text-lg font-bold">Stay in the loop</div>
 					<p className="text-sm text-[#363639] leading-[1.4rem]">
 						Join our mailing list to stay in the loop with our newest feature

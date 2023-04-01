@@ -16,9 +16,9 @@ const Navbar = () => {
 					>
 						NFTERS
 					</Link>
-					<div className="ml-[4.125rem]">
+					<div className="lg:ml-[4.125rem] md:ml-8 md:block hidden">
 						<ul
-							className={`flex items-center ${DMSans.variable} font-dm-sans space-x-12`}
+							className={`flex items-center ${DMSans.variable} font-dm-sans lg:space-x-12 md:space-x-8`}
 						>
 							<li className="nav-item">Marketplace</li>
 							<li className="nav-item">Resource</li>
@@ -31,12 +31,12 @@ const Navbar = () => {
 						<input
 							type="search"
 							placeholder="Search"
-							className={`h-[3.125rem] border-2 border-[#EFEFEF] rounded-full w-[18.75rem] pl-[1.875rem] text-base ${DMSans.variable} font-dm-sans font-medium outline-none`}
+							className={`h-[3.125rem] border-2 border-[#EFEFEF] rounded-full max-w-[18.75rem] pl-[1.875rem] text-base ${DMSans.variable} font-dm-sans font-medium outline-none hidden lg:block`}
 						/>
 						<Image
 							src={SearchIcon}
 							alt="Search Icon"
-							className="absolute right-[20px] top-[14px]"
+							className="lg:absolute right-[20px] top-[14px]"
 						/>
 					</div>
 					<Button variant="primary" className="!h-[3.125rem]">

@@ -9,15 +9,15 @@ import { integralCF } from '@/assets/fonts';
 
 const CallToAction = () => {
 	return (
-		<section className="container grid grid-cols-2 gap-[4.875rem] items-center pt-[6.375rem] pb-[5.125rem]">
-			<div className="flex space-x-16">
+		<section className="container grid md:grid-cols-2 grid-cols-1 gap-[4.875rem] items-center pt-[6.375rem] pb-[5.125rem]">
+			<div className="flex md:items-start items-center space-x-16 md:scale-100 scale-90">
 				<div className="flex flex-col items-end">
 					<div className="">
 						<div className="relative">
 							<Image
 								src={Abstract2}
 								alt="Abstract Image 2"
-								className="w-[18.75rem] h-[18.75rem] rounded-xl"
+								className="w-[18.75rem] h-[18.75rem] rounded-xl object-cover"
 							/>
 							<Image
 								src={Artist1}
@@ -31,7 +31,7 @@ const CallToAction = () => {
 							<Image
 								src={Abstract8}
 								alt="Abstract Image 8"
-								className="w-[194px] h-[214px] rounded-xl"
+								className="w-[194px] h-[214px] rounded-xl object-cover"
 							/>
 							<Image
 								src={Artist6}
@@ -47,7 +47,7 @@ const CallToAction = () => {
 							<Image
 								src={Abstract7}
 								alt="Abstract Image 7"
-								className="w-[15rem] h-[16.5625rem] rounded-xl"
+								className="w-60 h-[16.5625rem] rounded-xl object-cover"
 							/>
 							<Image
 								src={Artist6}

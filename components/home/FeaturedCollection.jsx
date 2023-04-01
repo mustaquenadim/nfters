@@ -22,7 +22,7 @@ const FeaturedCollection = () => {
 				>
 					Collection Featured NFTs
 				</h2>
-				<div className="mt-[3.4375rem] grid grid-cols-3 gap-[1.9375rem]">
+				<div className="mt-[3.4375rem] grid md:grid-cols-3 grid-cols-1 gap-[1.9375rem]">
 					<div className="space-y-7">
 						<div className="grid grid-cols-[265px_minmax(103.59px,_1fr)] gap-2">
 							<Image

@@ -6,9 +6,11 @@ import Image from 'next/image';
 
 const Hero = () => {
 	return (
-		<section className="container grid grid-cols-2 gap-[6.125rem] pt-[4.5rem] pb-[7.625rem]">
+		<section className="container grid md:grid-cols-2 grid-cols-1 gap-[6.125rem] pt-[4.5rem] pb-[7.625rem]">
 			<div>
-				<h1 className={`${integralCF.className} text-[2.5rem]`}>
+				<h1
+					className={`${integralCF.className} lg:text-[2.5rem] md:text-4xl text-[2.5rem]`}
+				>
 					Discover, and collect Digital Art NFTs{' '}
 				</h1>
 				<p className={`mt-[22px] ${DMSans.variable} font-dm-sans`}>
@@ -45,9 +47,9 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-			<div className="relative">
+			<div className="relative flex justify-center">
 				<Slider />
-				<div className="absolute -left-16 top-[160px] z-[1] rotating-element">
+				<div className="absolute -left-16 top-[160px] z-[1] rotating-element md:block hidden">
 					<Image src={LiveAuctionBadge} alt="Live Auction Badge" className="" />
 				</div>
 			</div>

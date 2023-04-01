@@ -10,7 +10,7 @@ import { integralCF } from '@/assets/fonts';
 
 const TopCollection = () => {
 	return (
-		<section className="container py-[8.375rem] flex justify-between">
+		<section className="container py-[8.375rem] flex md:flex-row flex-col md:justify-between md:space-y-0 space-y-9">
 			{/* left */}
 			<div className="card w-[25rem] space-y-8">
 				<Image src={Abstract9} alt="Abstract Image 9" />

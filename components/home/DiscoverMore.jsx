@@ -11,8 +11,8 @@ const DiscoverMore = () => {
 				>
 					Discover more NFTs
 				</h2>
-				<div className="flex items-center justify-between">
-					<div className="flex items-center space-x-3">
+				<div className="flex md:flex-row flex-col md:items-center items-start justify-between md:space-y-0 space-y-3">
+					<div className="flex items-center md:flex-nowrap flex-wrap space-x-3 md:space-y-0 space-y-3">
 						<Button variant="outlined" size="md">
 							All Categories
 						</Button>
@@ -37,7 +37,7 @@ const DiscoverMore = () => {
 					</div>
 					<Button>All Filters</Button>
 				</div>
-				<div className="grid grid-cols-4 gap-10">
+				<div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
 					{Array.from({ length: 16 }).map((_, index) => (
 						<Card key={index} />
 					))}
