@@ -95,3 +95,13 @@ nav .nav-item {
 .rotating-element {
 	animation: rotate 6s linear infinite;
 }
+/* end rotating elements */
+
+/* glassmorphism */
+.glassmorphism {
+	background: rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(25px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 10px;
+}
+/* end glassmorphism */

@@ -4,7 +4,7 @@ import Artist2 from '@/assets/images/artist-2.png';
 import Artist3 from '@/assets/images/artist-3.png';
 import Artist4 from '@/assets/images/artist-4.png';
 import Artist5 from '@/assets/images/artist-5.png';
-import Ethereum from '@/assets/icons/ethereum.svg';
+import EthereumIcon from '@/assets/icons/EthereumIcon';
 
 const Card = () => {
 	return (
@@ -26,7 +26,7 @@ const Card = () => {
 				<div className="">ArtCrypto</div>
 				<div className="flex items-center justify-between">
 					<div className="flex items-center">
-						<Image src={Ethereum} alt="" />
+						<EthereumIcon />
 						&nbsp;0.25 ETH
 					</div>
 					<div>1 of 321</div>
