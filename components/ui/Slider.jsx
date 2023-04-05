@@ -36,7 +36,7 @@ const Slide = ({ image, artist }) => {
 				alt="Abstract Image 8"
 				className="w-full h-[27.5rem] rounded-3xl"
 			/>
-			<div class="absolute top-0 text-white w-full h-full p-[1.625rem]">
+			<div className="absolute top-0 text-white w-full h-full p-[1.625rem]">
 				<div className="relative h-full w-full">
 					<div className="absolute top-0">
 						<div className="text-[1.75rem] font-bold -tracking-wider">

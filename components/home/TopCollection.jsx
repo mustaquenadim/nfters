@@ -12,8 +12,8 @@ const TopCollection = () => {
 	return (
 		<section className="container py-[8.375rem] flex md:flex-row flex-col md:justify-between md:space-y-0 space-y-9">
 			{/* left */}
-			<div className="card w-[25rem] space-y-8">
-				<Image src={Abstract9} alt="Abstract Image 9" />
+			<div className="card space-y-8">
+				<Image src={Abstract9} alt="Abstract Image 9" className="" />
 				<div className="flex justify-between">
 					<div className="flex items-start ">
 						<Image
@@ -92,7 +92,7 @@ const TopCollection = () => {
 									: index > 0 && index < 5 && 'py-4'
 							}`}
 						>
-							<div className="text-2xl font-bold">1</div>
+							<div className="text-2xl font-bold">{index + 1}</div>
 							<div className="relative">
 								<Image
 									src={Artist10}

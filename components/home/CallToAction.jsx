@@ -10,7 +10,7 @@ import { integralCF } from '@/assets/fonts';
 const CallToAction = () => {
 	return (
 		<section className="container grid md:grid-cols-2 grid-cols-1 gap-[4.875rem] items-center pt-[6.375rem] pb-[5.125rem]">
-			<div className="flex md:items-start items-center space-x-16 md:scale-100 scale-90">
+			<div className="flex space-x-16 md:scale-100 scale-90">
 				<div className="flex flex-col items-end">
 					<div className="">
 						<div className="relative">
